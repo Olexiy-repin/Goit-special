@@ -1,0 +1,67 @@
+<main class="main">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12">
+        <p class="main__text-under-title">Специальное предложение для участников вебинара</p>
+        <h1 class="main__title">FULL STACK- <br> РАЗРАБОТЧИК С НУЛЯ</h1>
+        <ul class="main__list">
+          <li class="main__list-item">Tech skills: 2 занятия в неделю</li>
+          <li class="main__list-item">Soft skills: 20 часов занятий</li>
+          <li class="main__list-item">9 месяцев обучения</li>
+          <li class="main__list-item">Доступ к ресурсу EnglishDom</li>
+          <li class="main__list-item">Проект в конце каждого блока</li>
+        </ul>
+        <p class="main__bottom-text">ФИНАЛЬНЫЙ ПРОЕКТ — РАЗРАБОТКА WEB-ПРИЛОЖЕНИЯ</p>
+        <div class="main__price-container">
+          <p class="main__price-text">Специальная цена</p>
+          <p class="main__new-price">2600 грн/мес</p>
+          <p class="main__old-price"><strike>3960 грн/мес</strike></p>
+        </div>
+      </div>
+      <div class="col-12">
+        <div class="form-container">
+          <form class="main__form" action="#" method="post">
+            <h2 class="main__form__title">Забронируйте цену <br> со скидкой</h2>
+            <p class="main__form__subtitle">Оставьте заявку, чтобы забронировать скидку. С вами свяжется карьерный консультант и ответит на вопросы.</p>
+            <div class="main__form-input-container">
+              <input class="main__form-input" id="name" type="text" name="first_name" placeholder="Имя">
+              <input class="main__form-input" id="email" type="text" name="email" placeholder="Email">
+              <input class="main__form-input" id="tel" type="tel" name="custom_mobile_phone" placeholder="Телефон">
+            </div>
+
+            <!-- crm input -->
+            <input type="hidden" class="registrationType" name="registrationType" value="default_registration">
+            <input type="hidden" class="orderType" name="orderType" value="order-no">
+            <input type="hidden" class="number_of_button" name="number_of_button" value="1">
+            <input type="hidden" name="utm_source" value="">
+            <input type="hidden" name="utm_campaign" value="">
+            <input type="hidden" name="utm_medium" value="">
+            <input type="hidden" name="utm_term" value="">
+            <input type="hidden" name="utm_content" value="">
+            <input type="hidden" name="lead_price" class="lead_price" value="">
+            <input type="hidden" name="click_id" value="">
+            <input type="hidden" name="affiliate_id" value="">
+            <input type="hidden" name="page_url" value="">
+            <input type="hidden" name="ref" value="">
+            <input type="hidden" name="lend" value="Webinar_Front-End/FullStack">
+            <input type="hidden" name="ip_address" value="">
+            <input type="hidden" name="city" value="">
+            <input type="hidden" class="gclid_field" name="gclid_field" value="">
+            <!-- getrespons -->
+            <input type="hidden" name="campaign_token" value="n3rWu" />
+      		  <!-- Страница благодарности (по желанию) -->
+      			<input type="hidden" name="thankyou_url" value="http://fe.webinar.goit.ua/success/"/>
+      			<!-- Добавить подписчика в цикл на определенный день (по желанию) -->
+      			<input type="hidden" name="start_day" value="0" />
+      			<!-- Forward form data to your page (optional) -->
+      			<input type="hidden" name="forward_data" value="post" />
+
+            <div class="submit-wrap">
+                <button class="main__form-btn" type="submit">оставить заявку</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
